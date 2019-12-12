@@ -1,0 +1,39 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Santa wishlist</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">  </head>
+
+  <body>
+
+    <!-- Begin page content -->
+    <main role="main" class="container">
+        <h1 class="mt-5">Dear Santa</h1>
+        <form action="https://25daysofserverless-day11.azurewebsites.net/api/wish" method="POST">
+            <div class="form-horizontal">
+                <div class="form-group">
+                    <label for="who">My name is:</label>
+                    <input class="form-control" id="Author" name="Author" required>
+                </div>
+                <div class="form-group">
+                    <label for="addr">I live in:</label>
+                    <input class="form-control" id="Address" name="Address" required>
+                </div>
+                <div class="form-group">
+                    <label for="type">I want:</label>
+                    <input class="form-control" id="Type" name="Type" required>
+                </div>
+                <div class="form-group">
+                    <label for="desc">More precisely:</label>
+                    <input class="form-control" id="Description" name="Description" required>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </main>
+  </body>
+</html>
