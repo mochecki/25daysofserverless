@@ -1,1 +1,1 @@
-# 25daysofserverless
+# [25 days of serverless](https://www.25daysofserverless.com)
