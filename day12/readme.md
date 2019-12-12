@@ -5,7 +5,7 @@
 
 [Markdig](https://github.com/lunet-io/markdig_) to convert markdown file to HTML.
 
-**API Management (Consumption Plan)** with external **Redis Cache** to cache HTML responses for cards - vary by query parameter.
+**API Management (Consumption Plan)** with external **Redis Cache** and caching policy to store HTML responses for cards - vary by query parameter.
 
 
 ![API Management](images/apimanagement.PNG)
