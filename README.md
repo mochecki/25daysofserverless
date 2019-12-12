@@ -1,4 +1,4 @@
-# 25 Days of Serverless (https://www.25daysofserverless.com)
+# 25 Days of Serverless (https://25daysofserverless.com)
 
 [![advent-of-serverless.gif](https://s5.gifyu.com/images/advent-of-serverless.gif)](https://gifyu.com/image/vNo5)
 
